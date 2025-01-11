@@ -1,4 +1,4 @@
-package com.example.jspdemo.domain;
+package com.springboot.app.domain;
 
 public class Student {
     private String name;

@@ -1,4 +1,4 @@
-package threadinterference;
+package com.springboot.app.threadinterference;
 
 public class SynExample {
     public static void main(String[] args) {

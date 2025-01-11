@@ -1,4 +1,6 @@
-import config.HibernateConfigUtil;
+package com.springboot.app;
+
+import com.springboot.app.config.HibernateConfigUtil;
 import org.hibernate.Session;
 
 public class OpenSessionVsGetCurrentSessionDemo {

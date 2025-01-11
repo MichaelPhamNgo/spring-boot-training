@@ -1,13 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/Day-10/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-14/Hibernate-One-To-Many/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-15/Hibernate-Caching/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-18/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-18/Spring-MVC-Demo-Jan/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-19/JspDemo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-19/LoginDemo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-20/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-21/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-21/Auth-Server/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-21/Rest-Demo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-29/aop/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-29/logging/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-32/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-34/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-34/Rabbit-MQ-Publisher/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-34/Rabbit-MQ-Consumer/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-34/Scheduler/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-35/Book-Store/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-35/Config-Server/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-35/Gateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-35/Movie-Store/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-35/Service-Discovery/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Day-1" />
+        <module name="Rabbit-MQ-Consumer" />
+        <module name="aop" />
+        <module name="Service-Discovery" />
+        <module name="Scheduler" />
+        <module name="Rest-Demo" />
+        <module name="Day-5" />
+        <module name="Day-10" />
+        <module name="Day-32" />
+        <module name="Day-7" />
+        <module name="Day-8" />
+        <module name="Hibernate-Basic" />
+        <module name="Maven-Hibernate-Annotation" />
+        <module name="Config-Server" />
+        <module name="Day-3" />
+        <module name="Day-4" />
+        <module name="Day-17" />
+        <module name="Rabbit-MQ-Publisher" />
+        <module name="Maven-Hibernate-XML" />
+        <module name="Day-30" />
+        <module name="Gateway" />
+        <module name="Hibernate-One-To-Many" />
+        <module name="Day-31" />
+        <module name="Jdbc-Connection-Pooling" />
+        <module name="Hibernate-Criteria" />
+        <module name="Movie-Store" />
+        <module name="Spring-MVC-Demo" />
+        <module name="Spring-MVC-Demo-Jan" />
+        <module name="Hibernate-Caching" />
+        <module name="Auth-Server" />
+        <module name="Day-20" />
+        <module name="Book-Store" />
+        <module name="logging" />
+        <module name="LoginDemo" />
+        <module name="JspDemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Day-2" target="1.8" />
+      <module name="Day-6" target="19" />
+      <module name="day-9" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Auth-Server" options="-parameters" />
+      <module name="Book-Store" options="-parameters" />
+      <module name="Config-Server" options="-parameters" />
+      <module name="Day-17" options="" />
+      <module name="Day-18" options="" />
+      <module name="Day-20" options="-parameters" />
+      <module name="Day-30" options="-parameters" />
+      <module name="Day-31" options="-parameters" />
+      <module name="Day-32" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="JspDemo" options="-parameters" />
+      <module name="LoginDemo" options="-parameters" />
+      <module name="Movie-Store" options="-parameters" />
+      <module name="Rabbit-MQ-Consumer" options="-parameters" />
+      <module name="Rabbit-MQ-Publisher" options="-parameters" />
+      <module name="Rest-Demo" options="-parameters" />
+      <module name="Scheduler" options="-parameters" />
+      <module name="Service-Discovery" options="-parameters" />
+      <module name="Spring-MVC-Demo" options="-parameters" />
+      <module name="Spring-MVC-Demo-Jan" options="-parameters" />
+      <module name="aop" options="-parameters" />
+      <module name="logging" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,12 +1,16 @@
-package com.bfs.restdemo.controller;
+package com.springboot.app.controller;
 
-import com.bfs.restdemo.domain.account.Account;
-import com.bfs.restdemo.domain.account.AccountRequest;
-import com.bfs.restdemo.domain.account.AccountResponse;
-import com.bfs.restdemo.domain.common.ServiceStatus;
-import org.springframework.http.HttpRequest;
+
+import com.springboot.app.domain.account.Account;
+import com.springboot.app.domain.account.AccountRequest;
+import com.springboot.app.domain.account.AccountResponse;
+import com.springboot.app.domain.common.ServiceStatus;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;

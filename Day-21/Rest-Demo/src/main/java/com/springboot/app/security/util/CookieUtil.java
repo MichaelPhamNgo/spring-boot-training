@@ -1,4 +1,4 @@
-package com.bfs.restdemo.security.util;
+package com.springboot.app.security.util;
 
 import org.springframework.web.util.WebUtils;
 

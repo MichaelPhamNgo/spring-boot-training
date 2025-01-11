@@ -1,4 +1,4 @@
-package config;
+package com.springboot.app.config;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

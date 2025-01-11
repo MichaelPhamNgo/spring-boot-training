@@ -1,4 +1,4 @@
-package com.bfs.authserver.security;
+package com.springboot.app.security;
 
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
@@ -17,7 +17,7 @@ public class JwtUtil {
         JwtBuilder builder = Jwts.builder()
                 .setSubject(subject)
                 .setIssuedAt(now)
-                //.setExpiration(Date.from(ZonedDateTime.now().plusMinutes(60).toInstant()))
+                .setExpiration(Date.from(ZonedDateTime.now().plusMinutes(60).toInstant()))
                 .signWith(SignatureAlgorithm.HS256, signingKey);
 
         return builder.compact();

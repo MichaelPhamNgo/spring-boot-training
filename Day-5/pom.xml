@@ -8,13 +8,5 @@
         <artifactId>spring-boot-training</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
     <artifactId>Day-5</artifactId>
-
-    <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
 </project>

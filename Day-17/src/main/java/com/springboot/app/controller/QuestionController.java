@@ -1,6 +1,7 @@
-package com.beaconfire.controller;
+package com.springboot.app.controller;
 
-import com.beaconfire.dao.QuestionDAO;
+
+import com.springboot.app.dao.QuestionDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

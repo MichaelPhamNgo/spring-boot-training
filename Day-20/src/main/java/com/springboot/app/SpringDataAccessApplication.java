@@ -1,13 +1,12 @@
-package com.bfs.springdataaccess;
+package com.springboot.app;
 
-import com.bfs.springdataaccess.config.JdbcConfig;
-import com.bfs.springdataaccess.domain.Employee;
-import com.bfs.springdataaccess.service.EmployeeService;
+
+import com.springboot.app.config.JdbcConfig;
+import com.springboot.app.domain.Employee;
+import com.springboot.app.service.EmployeeService;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.util.Arrays;
 
 @SpringBootApplication
 public class SpringDataAccessApplication {
@@ -30,8 +29,8 @@ public class SpringDataAccessApplication {
 		employee1.setEmail("Jdbc@Jdbc.com");
 
 		Employee employee2 = new Employee();
-		employee2.setFirstname("JdbcInvalid");
-		employee2.setLastname("Jdbc");
+		employee2.setFirstname("Jdba");
+		employee2.setLastname("Jdba");
 		employee2.setEmail("Jdbc@Jdbc.com");
 
 		employeeService.addEmployee(employee1,employee2);

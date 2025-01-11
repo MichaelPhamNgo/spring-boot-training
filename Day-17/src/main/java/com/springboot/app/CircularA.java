@@ -1,4 +1,4 @@
-package com.beaconfire;
+package com.springboot.app;
 
 public class CircularA {
     CircularB b;

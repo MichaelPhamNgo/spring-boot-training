@@ -1,3 +1,5 @@
+package com.springboot.app;
+
 public class DeadlockExample {
 
     public static void main(String[] args) {

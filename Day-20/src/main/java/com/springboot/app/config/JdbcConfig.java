@@ -1,6 +1,7 @@
-package com.bfs.springdataaccess.config;
+package com.springboot.app.config;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.*;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -10,7 +11,8 @@ import javax.sql.DataSource;
 
 @Configuration
 @PropertySource("classpath:application.properties")
-@ComponentScan(basePackages = {"com.bfs.springdataaccess"})
+@ComponentScan(basePackages = {"com.springboot.app"})
+@EntityScan(basePackages = {"com.springboot.app.domain"})
 public class JdbcConfig {
 
     @Value("${database.jdbc.driver}")

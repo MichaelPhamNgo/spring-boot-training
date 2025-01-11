@@ -1,4 +1,4 @@
-package java8.defaultmethod.diamondproblem;
+package com.springboot.app.java8.defaultmethod.diamondproblem;
 
 public class SomeClass implements A, B{
     @Override

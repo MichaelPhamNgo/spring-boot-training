@@ -1,4 +1,4 @@
-package com.bfs.config;
+package com.springboot.app.config;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -7,8 +7,8 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
-import com.bfs.domain.Author;
-import com.bfs.domain.Category;
+import com.springboot.app.domain.Author;
+import com.springboot.app.domain.Category;
 
 public class HibernateConfigUtil {
 

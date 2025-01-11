@@ -1,7 +1,8 @@
-package com.example.springmvcdemo.service;
+package com.springboot.app.service;
 
-import com.example.springmvcdemo.dao.UserDao;
-import com.example.springmvcdemo.domain.User;
+
+import com.springboot.app.dao.UserDao;
+import com.springboot.app.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,8 @@
-package com.beaconfire;
+package com.springboot.app;
 
-import com.beaconfire.dao.QuestionDAO;
-import com.beaconfire.dao.QuestionHibernateImpl;
+
+import com.springboot.app.dao.QuestionDAO;
+import com.springboot.app.dao.QuestionHibernateImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,6 +1,7 @@
-package java8.functional;
+package com.springboot.app.java8.functional;
 
-import java8.stream.User;
+
+import com.springboot.app.java8.stream.User;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package java8.functional;
+package com.springboot.app.java8.functional;
 
 @FunctionalInterface
 public interface MyFunctionalInterface {

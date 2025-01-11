@@ -1,3 +1,5 @@
+package com.springboot.app;
+
 public class Node<K, V> {
     K key;
     V value;

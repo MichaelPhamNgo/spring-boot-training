@@ -1,9 +1,7 @@
-package com.bfs.restdemo.domain.account;
+package com.springboot.app.domain.account;
 
 import lombok.Getter;
 import lombok.Setter;
-
-import javax.xml.bind.annotation.XmlRootElement;
 
 @Getter
 @Setter

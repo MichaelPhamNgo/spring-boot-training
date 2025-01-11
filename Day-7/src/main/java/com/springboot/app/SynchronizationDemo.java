@@ -1,3 +1,5 @@
+package com.springboot.app;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 public class SynchronizationDemo {

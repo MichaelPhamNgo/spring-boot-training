@@ -1,0 +1,21 @@
+<!-- Interpolation -->
+<h1>Sample 1</h1>
+<p>The sum of 1 + 1 is {{1 + 1}}</p>
+<p>Bind variable: {{title}}</p>
+<p>Bind function: {{bindMethod()}}</p>
+<hr>
+
+<!-- Property Binding -->
+<div [style]="style"></div>
+<br>
+
+<!-- Event Binding -->
+<button (click)="showTitle()">Show Title</button>
+<hr>
+
+<!-- Two way data binding -->
+<input type="text" [value]="name">
+
+<input type="text" [(ngModel)]="name">
+<br>
+<button (click)="showName()">Show Name</button>

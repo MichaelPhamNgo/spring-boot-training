@@ -1,11 +1,11 @@
-package serialization;
+package com.springboot.app.serialization;
 
 import java.io.*;
 
 public class Serialization {
     public static void serialization(User user) {
         try {
-            FileOutputStream file = new FileOutputStream("file.txt");
+            FileOutputStream file = new FileOutputStream("Day-5/src/main/java/file.txt");
             ObjectOutputStream out = new ObjectOutputStream(file);
             out.writeObject(user);
             out.close();
@@ -19,7 +19,7 @@ public class Serialization {
     public static User deserialization() {
         User user = null;
         try {
-            FileInputStream file = new FileInputStream("file.txt");
+            FileInputStream file = new FileInputStream("Day-5/src/main/java/file.txt");
             ObjectInputStream in = new ObjectInputStream(file);
             user = (User) in.readObject();
             in.close();

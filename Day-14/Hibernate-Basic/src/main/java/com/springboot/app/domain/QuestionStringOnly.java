@@ -1,4 +1,4 @@
-package domain;
+package com.springboot.app.domain;
 
 public class QuestionStringOnly {
     private String question;

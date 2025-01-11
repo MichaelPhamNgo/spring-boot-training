@@ -7,6 +7,9 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>Day-14</artifactId>
-    <name>Archetype - Day-14</name>
-    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Hibernate-Basic</module>
+        <module>Hibernate-One-To-Many</module>
+    </modules>
 </project>

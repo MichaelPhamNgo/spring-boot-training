@@ -1,4 +1,4 @@
-package java8.stream;
+package com.springboot.app.java8.stream;
 
 import java.util.Objects;
 

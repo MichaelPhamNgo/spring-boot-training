@@ -1,0 +1,32 @@
+<router-outlet name="headline"></router-outlet>
+
+<h1>Hi this is the App Component!</h1>
+
+<nav>
+  <ul>
+    <li><a routerLink="">App Component</a></li>
+    <li><a routerLink="/sample1">Sample1</a></li>
+    <li><a routerLink="/nested">Nested</a></li>
+    <li><a routerLink="/qp" [queryParams]="{name: 'Rachel'}">Query-Parameter</a></li>
+    <li><a routerLink="/heroes">Heroes List</a></li>
+    <li><a routerLink="/admin">Admin Page</a></li>
+    <li><a routerLink="/user">User Page</a></li>
+    <li><a [routerLink]="['', { outlets: { headline: ['sample1'] } }]">Sample1</a></li>
+    <li><a routerLink="/childModule">Lazy</a></li>
+    <li><a routerLink="/placeholder">Pipe</a></li>
+  </ul>
+</nav>
+
+<button (click)="toSample1()">Navigate to sample1</button>
+<button (click)="toNested()">Navigate to Nested</button>
+<hr>
+<input type = 'text' [(ngModel)]="inputName">
+<button (click)="inputNameMethod()">Navigate to Query Parameter</button>
+<hr>
+<button (click)="loginAsAdmin()">Login as Admin</button>
+<button (click)="loginAsUser()">Login as User</button>
+<button (click)="logout()">Logout</button>
+
+
+<router-outlet></router-outlet>
+

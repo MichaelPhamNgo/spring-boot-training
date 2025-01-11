@@ -1,7 +1,8 @@
-package com.bfs.restdemo.domain.account;
+package com.springboot.app.domain.account;
 
-import com.bfs.restdemo.domain.common.ServiceStatus;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.springboot.app.domain.common.ServiceStatus;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

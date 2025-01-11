@@ -1,6 +1,7 @@
-package com.example.logindemo.dao;
+package com.springboot.app.dao;
 
-import com.example.logindemo.domain.User;
+
+import com.springboot.app.domain.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

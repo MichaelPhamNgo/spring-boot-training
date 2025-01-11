@@ -1,7 +1,8 @@
-package com.example.springmvcdemo.controller;
+package com.springboot.app.controller;
 
-import com.example.springmvcdemo.domain.User;
-import com.example.springmvcdemo.service.UserService;
+
+import com.springboot.app.domain.User;
+import com.springboot.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

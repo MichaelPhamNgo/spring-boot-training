@@ -1,4 +1,4 @@
-package exception;
+package com.springboot.app.exception;
 
 public class ThrowAndThrows {
     public static void throwException() throws Exception{

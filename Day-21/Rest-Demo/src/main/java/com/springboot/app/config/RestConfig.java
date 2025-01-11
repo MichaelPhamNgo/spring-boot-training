@@ -1,4 +1,4 @@
-package com.bfs.restdemo.config;
+package com.springboot.app.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;

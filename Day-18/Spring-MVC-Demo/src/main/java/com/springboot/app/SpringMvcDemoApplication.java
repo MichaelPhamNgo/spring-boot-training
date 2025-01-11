@@ -1,4 +1,4 @@
-package com.example.springmvcdemo;
+package com.springboot.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

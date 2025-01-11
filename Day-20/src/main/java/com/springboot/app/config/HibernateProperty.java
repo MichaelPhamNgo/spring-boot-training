@@ -1,4 +1,4 @@
-package com.bfs.springdataaccess.config;
+package com.springboot.app.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

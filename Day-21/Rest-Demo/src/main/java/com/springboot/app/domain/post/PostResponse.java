@@ -1,4 +1,4 @@
-package com.bfs.restdemo.domain.post;
+package com.springboot.app.domain.post;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

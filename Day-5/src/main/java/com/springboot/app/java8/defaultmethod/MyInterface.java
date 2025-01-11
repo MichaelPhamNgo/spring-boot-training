@@ -1,4 +1,4 @@
-package java8.defaultmethod;
+package com.springboot.app.java8.defaultmethod;
 
 public interface MyInterface {
 

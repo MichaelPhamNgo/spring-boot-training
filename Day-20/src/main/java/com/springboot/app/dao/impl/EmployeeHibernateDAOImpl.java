@@ -1,8 +1,9 @@
-package com.bfs.springdataaccess.dao.impl;
+package com.springboot.app.dao.impl;
 
-import com.bfs.springdataaccess.dao.AbstractHibernateDAO;
-import com.bfs.springdataaccess.dao.EmployeeDAO;
-import com.bfs.springdataaccess.domain.Employee;
+
+import com.springboot.app.dao.AbstractHibernateDAO;
+import com.springboot.app.dao.EmployeeDAO;
+import com.springboot.app.domain.Employee;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

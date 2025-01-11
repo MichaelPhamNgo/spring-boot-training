@@ -1,4 +1,4 @@
-package com.bfs.springdataaccess.dao;
+package com.springboot.app.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

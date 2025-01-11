@@ -1,0 +1,5 @@
+<h2>Items</h2>
+<ul *ngFor="let item of heroes; let i = index;">
+  <li [routerLink]="[ 'hero', i ]">{{item.name}} {{i}}</li>
+</ul>
+<router-outlet></router-outlet>

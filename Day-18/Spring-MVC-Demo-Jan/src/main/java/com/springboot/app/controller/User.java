@@ -1,4 +1,4 @@
-package com.example.springmvcdemojan;
+package com.springboot.app.controller;
 
 public class User {
     private String name;

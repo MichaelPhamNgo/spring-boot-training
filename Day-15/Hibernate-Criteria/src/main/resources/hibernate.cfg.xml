@@ -7,11 +7,11 @@
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.password">123456</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/db_example?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=US/Eastern</property>
-        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.username">admin</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="current_session_context_class">thread</property>
         <property name="hibernate.show_sql">true</property>
-        <mapping class="com.bfs.domain.Category"></mapping>
-        <mapping class="com.bfs.domain.Product"></mapping>
+        <mapping class="com.springboot.app.domain.Category"></mapping>
+        <mapping class="com.springboot.app.domain.Product"></mapping>
     </session-factory>
 </hibernate-configuration>

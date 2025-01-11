@@ -1,4 +1,4 @@
-package com.bfs.restdemo.domain.common;
+package com.springboot.app.domain.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

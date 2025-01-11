@@ -1,4 +1,4 @@
-package com.beaconfire.dao;
+package com.springboot.app.dao;
 
 import org.springframework.stereotype.Component;
 

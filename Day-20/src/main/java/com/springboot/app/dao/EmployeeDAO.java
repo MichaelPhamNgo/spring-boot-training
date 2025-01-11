@@ -1,6 +1,6 @@
-package com.bfs.springdataaccess.dao;
+package com.springboot.app.dao;
 
-import com.bfs.springdataaccess.domain.Employee;
+import com.springboot.app.domain.Employee;
 
 import java.util.List;
 

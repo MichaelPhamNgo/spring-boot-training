@@ -1,12 +1,14 @@
+package com.springboot.app;
+
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import java.sql.*;
 
 public class JdbcConnectionPoolExample {
     public static ComboPooledDataSource getDataSource() {
         ComboPooledDataSource cpds = new ComboPooledDataSource();
-        cpds.setJdbcUrl("jdbc:mysql://localhost/world");
-        cpds.setUser("root");
-        cpds.setPassword("root");
+        cpds.setJdbcUrl("jdbc:mysql://localhost/day13");
+        cpds.setUser("admin");
+        cpds.setPassword("123456");
 
         cpds.setInitialPoolSize(5);
         cpds.setMinPoolSize(5);

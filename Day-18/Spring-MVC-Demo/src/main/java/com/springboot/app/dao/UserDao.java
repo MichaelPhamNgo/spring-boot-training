@@ -1,6 +1,6 @@
-package com.example.springmvcdemo.dao;
+package com.springboot.app.dao;
 
-import com.example.springmvcdemo.domain.User;
+import com.springboot.app.domain.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

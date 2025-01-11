@@ -1,0 +1,19 @@
+<h3>Input and Output</h3>
+<ul>
+  <app-child-input *ngFor="let item of list" [item]="item"></app-child-input>
+</ul>
+<app-child-output (addItemToParentArray)="add($event)"></app-child-output>
+<br>
+<br>
+
+<h3>Local Variable</h3>
+<app-local-variable #childVariable></app-local-variable>
+<button (click)="childVariable.increment()">Add</button>
+<button (click)="childVariable.decrement()">Minus</button>
+<br>
+<br>
+
+<h3>View Child</h3>
+<app-view-child></app-view-child>
+<button (click)="callChildIncrementMethod()">Add</button>
+<button (click)="callChildDecrementMethod()">Minus</button>

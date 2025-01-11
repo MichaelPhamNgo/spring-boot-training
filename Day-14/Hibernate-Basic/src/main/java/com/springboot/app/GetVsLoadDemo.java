@@ -1,5 +1,7 @@
-import config.*;
-import domain.Question;
+package com.springboot.app;
+
+import com.springboot.app.config.*;
+import com.springboot.app.domain.Question;
 import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -16,10 +18,10 @@ public class GetVsLoadDemo {
 //             get vs load, get is eager initialization while load is lazily initialization
 //            question = session.load(Question.class, 3);
             Hibernate.initialize(question);
-//            question = session.get(Question.class, 3);
+            question = session.get(Question.class, 3);
 
             // get vs load, when the record is not found
-            question = session.load(Question.class, 1000);
+//            question = session.load(Question.class, 1000);
 //            Hibernate.initialize(question);
 //            question = session.get(Question.class, 1000);
 //            System.out.println(question);

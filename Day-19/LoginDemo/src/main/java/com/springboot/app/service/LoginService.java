@@ -1,7 +1,8 @@
-package com.example.logindemo.service;
+package com.springboot.app.service;
 
-import com.example.logindemo.dao.LoginDao;
-import com.example.logindemo.domain.User;
+
+import com.springboot.app.dao.LoginDao;
+import com.springboot.app.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

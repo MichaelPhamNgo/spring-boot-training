@@ -1,6 +1,6 @@
-package com.bfs.restdemo.config;
+package com.springboot.app.config;
 
-import com.bfs.restdemo.security.filter.JwtFilter;
+import com.springboot.app.security.filter.JwtFilter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

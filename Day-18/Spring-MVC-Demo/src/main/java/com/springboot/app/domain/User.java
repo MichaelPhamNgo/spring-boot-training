@@ -1,4 +1,4 @@
-package com.example.springmvcdemo.domain;
+package com.springboot.app.domain;
 
 public class User {
     private int id;

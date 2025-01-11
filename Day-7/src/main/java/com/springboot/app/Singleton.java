@@ -1,3 +1,5 @@
+package com.springboot.app;
+
 public class Singleton {
     private static volatile Singleton instance = null;
 

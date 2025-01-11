@@ -1,8 +1,8 @@
-package com.bfs.restdemo.security.filter;
+package com.springboot.app.security.filter;
 
-import com.bfs.restdemo.constant.Constant;
-import com.bfs.restdemo.security.util.JwtUtil;
-import org.springframework.stereotype.Component;
+
+import com.springboot.app.constant.Constant;
+import com.springboot.app.security.util.JwtUtil;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;

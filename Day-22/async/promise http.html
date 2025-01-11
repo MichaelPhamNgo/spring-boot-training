@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>promise fetch example</title>
+	</head>
+	<body>
+		<p>Default</p>
+		<button>Display info from http fetch</button>
+		<script>
+			document.querySelector("button").addEventListener("click", function() {
+				let httpPromise = fetch('https://jsonplaceholder.typicode.com/todos/1');
+				httpPromise
+					.then(response => response.json())
+					.then(json => document.querySelector("p").innerHTML = json.title);
+			});
+		</script>
+	</body>
+</html>

@@ -1,6 +1,5 @@
-package com.beaconfire;
+package com.springboot.app;
 
-import com.beaconfire.controller.UserController;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

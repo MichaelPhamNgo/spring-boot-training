@@ -1,5 +1,7 @@
-import config.HibernateConfigUtil;
-import domain.Question;
+package com.springboot.app;
+
+import com.springboot.app.config.HibernateConfigUtil;
+import com.springboot.app.domain.Question;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

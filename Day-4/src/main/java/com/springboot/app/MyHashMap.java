@@ -1,3 +1,5 @@
+package com.springboot.app;
+
 public class MyHashMap<K, V> {
     Node<K, V>[] buckets;
     int capacity = 10;

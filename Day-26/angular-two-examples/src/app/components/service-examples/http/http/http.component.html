@@ -1,0 +1,12 @@
+<ul>
+  <li *ngFor="let user of users">Username: {{user.username}}, Password: {{user.password}}</li>
+</ul>
+<label>
+  Username:
+  <input type="text" [(ngModel)]="username">
+</label>
+<label>
+  Password:
+  <input type="text" [(ngModel)]="password">
+</label>
+<button (click)="addUser()">Add User</button>

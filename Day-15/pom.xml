@@ -7,6 +7,9 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>Day-15</artifactId>
-    <name>Archetype - Day-15</name>
-    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Hibernate-Caching</module>
+        <module>Hibernate-Criteria</module>
+    </modules>
 </project>

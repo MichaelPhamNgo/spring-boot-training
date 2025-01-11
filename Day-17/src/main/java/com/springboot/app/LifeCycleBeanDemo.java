@@ -1,6 +1,5 @@
-package com.beaconfire;
+package com.springboot.app;
 
-import com.beaconfire.controller.QuestionController;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.beans.factory.xml.XmlBeanFactory;

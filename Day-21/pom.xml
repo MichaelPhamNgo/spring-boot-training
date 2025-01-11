@@ -7,6 +7,9 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>Day-21</artifactId>
-    <name>Archetype - Day-21</name>
-    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Auth-Server</module>
+        <module>Rest-Demo</module>
+    </modules>
 </project>

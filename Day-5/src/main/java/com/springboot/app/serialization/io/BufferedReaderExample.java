@@ -1,7 +1,6 @@
-package serialization.io;
+package com.springboot.app.serialization.io;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -18,7 +17,7 @@ public class BufferedReaderExample {
     public static void main(String[] args) {
         BufferedReader reader = null;
         try {
-            reader = new BufferedReader(new FileReader("buffered-writer.txt"));
+            reader = new BufferedReader(new FileReader("Day-5/src/main/java/buffered-writer.txt"));
             String line;
             while((line = reader.readLine()) != null) {
                 System.out.println(line);

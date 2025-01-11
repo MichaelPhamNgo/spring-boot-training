@@ -1,4 +1,4 @@
-package com.bfs.restdemo.builderPattern;
+package com.springboot.app.builderPattern;
 
 public class BuilderDemo {
     public static void main(String[] args) {

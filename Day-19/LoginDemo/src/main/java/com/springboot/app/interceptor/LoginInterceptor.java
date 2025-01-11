@@ -1,4 +1,4 @@
-package com.example.logindemo.interceptor;
+package com.springboot.app.interceptor;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

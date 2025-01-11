@@ -1,4 +1,4 @@
-package serialization;
+package com.springboot.app.serialization;
 
 import java.io.Serializable;
 

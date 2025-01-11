@@ -1,8 +1,8 @@
-package com.bfs;
+package com.springboot.app;
 
-import com.bfs.config.HibernateConfigUtil;
-import com.bfs.dao.AuthorDao;
-import com.bfs.dao.CategoryDao;
+import com.springboot.app.config.HibernateConfigUtil;
+import com.springboot.app.dao.AuthorDao;
+import com.springboot.app.dao.CategoryDao;
 
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;

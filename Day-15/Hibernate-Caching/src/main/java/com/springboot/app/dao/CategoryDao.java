@@ -1,10 +1,10 @@
-package com.bfs.dao;
+package com.springboot.app.dao;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.bfs.config.HibernateConfigUtil;
-import com.bfs.domain.Category;
+import com.springboot.app.config.HibernateConfigUtil;
+import com.springboot.app.domain.Category;
 
 public class CategoryDao {
 

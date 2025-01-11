@@ -1,12 +1,14 @@
-package com.bfs.dao;
+package com.springboot.app.dao;
 
-import javax.persistence.OptimisticLockException;
+
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.bfs.config.HibernateConfigUtil;
-import com.bfs.domain.Author;
+import com.springboot.app.config.HibernateConfigUtil;
+import com.springboot.app.domain.Author;
+
+import javax.persistence.OptimisticLockException;
 
 public class AuthorDao {
 

@@ -1,22 +1,20 @@
-package com.bfs;
+package com.springboot.app;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.JoinType;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
-
+import com.springboot.app.config.HibernateConfigUtil;
+import com.springboot.app.domain.Category;
+import com.springboot.app.domain.ProdCatResult;
+import com.springboot.app.domain.Product;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.JoinType;
+import jakarta.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Root;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.bfs.config.HibernateConfigUtil;
-import com.bfs.domain.Category;
-import com.bfs.domain.ProdCatResult;
-import com.bfs.domain.Product;
+import java.util.Arrays;
+import java.util.List;
+
 
 public class ApplicationStater {
 
@@ -84,7 +82,7 @@ public class ApplicationStater {
 		Session session = HibernateConfigUtil.getCurrentSession();
 		
 		Transaction transaction = session.beginTransaction();
-		Category category = session.get(Category.class, new Integer(1));
+		Category category = session.get(Category.class, 1);
 		//category.getProducts().isEmpty();
 		transaction.commit();
 		session.close();

@@ -6,8 +6,8 @@
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/cs5610?serverTimezone=UTC</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.username">admin</property>
+        <property name="hibernate.connection.password">123456</property>
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <property name="show_sql">true</property>
@@ -22,7 +22,7 @@
         <!--        how many connections it should try to acquire if the pool runs out of available connections.-->
         <property name="hibernate.c3p0.acquire_increment">5</property>
 
-        <mapping class="domain.Question"/>
+        <mapping class="com.springboot.app.domain.Question"/>
 
     </session-factory>
 </hibernate-configuration>

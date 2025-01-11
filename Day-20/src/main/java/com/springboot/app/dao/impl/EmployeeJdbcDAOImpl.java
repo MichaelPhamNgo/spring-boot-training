@@ -1,14 +1,12 @@
-package com.bfs.springdataaccess.dao.impl;
+package com.springboot.app.dao.impl;
 
-import com.bfs.springdataaccess.dao.EmployeeDAO;
-import com.bfs.springdataaccess.domain.Employee;
+
+import com.springboot.app.dao.EmployeeDAO;
+import com.springboot.app.domain.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Required;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

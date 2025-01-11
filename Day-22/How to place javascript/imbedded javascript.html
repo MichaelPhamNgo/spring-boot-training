@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>index</title>
+		</head>
+	<body>
+		<h3>Hello World!</h3>
+		<button id="button">Click me</button>
+		<script>
+			document.getElementById("button").addEventListener("click", () => {
+				document.querySelector("h3").innerHTML = "changed by JavaScript";
+			});
+		</script>
+	</body>
+</html>

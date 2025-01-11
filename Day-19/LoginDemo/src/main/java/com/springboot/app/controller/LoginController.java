@@ -1,11 +1,10 @@
-package com.example.logindemo.controller;
+package com.springboot.app.controller;
 
-import com.example.logindemo.domain.User;
-import com.example.logindemo.service.LoginService;
-import org.springframework.http.HttpRequest;
+
+import com.springboot.app.domain.User;
+import com.springboot.app.service.LoginService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 

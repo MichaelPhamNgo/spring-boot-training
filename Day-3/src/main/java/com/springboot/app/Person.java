@@ -1,4 +1,4 @@
-package com.bfs;
+package com.springboot.app;
 
 public class Person {
     private int age;

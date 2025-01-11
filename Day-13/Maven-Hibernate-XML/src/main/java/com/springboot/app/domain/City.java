@@ -1,6 +1,5 @@
-package domain;
+package com.springboot.app.domain;
 
-import javax.persistence.*;
 import java.io.Serializable;
 
 public class City implements Serializable {

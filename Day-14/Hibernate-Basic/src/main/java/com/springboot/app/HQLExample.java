@@ -1,9 +1,10 @@
-import config.HibernateConfigUtil;
-import domain.Question;
-import domain.QuestionStringOnly;
+package com.springboot.app;
+
+import com.springboot.app.config.HibernateConfigUtil;
+import com.springboot.app.domain.QuestionStringOnly;
+import jakarta.persistence.TypedQuery;
 import org.hibernate.Session;
 
-import javax.persistence.TypedQuery;
 import java.util.List;
 
 public class HQLExample {
@@ -14,7 +15,7 @@ public class HQLExample {
 //            List<Question> questionList = query.getResultList();
 //            System.out.println(questionList);
 
-            TypedQuery<QuestionStringOnly> query2 = session.createQuery("select new domain.QuestionStringOnly(q.question) from Question q", QuestionStringOnly.class);
+            TypedQuery<QuestionStringOnly> query2 = session.createQuery("select new com.springboot.app.domain.QuestionStringOnly(q.question) from Question q", QuestionStringOnly.class);
             List<QuestionStringOnly> list = query2.getResultList();
             System.out.println(list);
 

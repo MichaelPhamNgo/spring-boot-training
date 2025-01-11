@@ -1,11 +1,7 @@
-package com.beaconfire;
+package com.springboot.app;
 
-import com.beaconfire.dao.QuestionDAO;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.lang.reflect.InvocationTargetException;
 
 public class BeaconfireApplication {
 

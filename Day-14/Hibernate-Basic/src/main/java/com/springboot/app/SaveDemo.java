@@ -1,5 +1,7 @@
-import config.*;
-import domain.Question;
+package com.springboot.app;
+
+import com.springboot.app.config.*;
+import com.springboot.app.domain.Question;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>promise fetch example</title>
+	</head>
+	<body>
+		<p>Default</p>
+		<button>Display info from http fetch</button>
+		<script>
+			async function fetchData() {
+				let response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+				console.log(response);
+				let jsonResponse = await response.json();
+				document.querySelector("p").innerHTML = jsonResponse.title;
+			}
+		
+			document.querySelector("button").addEventListener("click", function() {
+				fetchData();
+			});
+		</script>
+	</body>
+</html>

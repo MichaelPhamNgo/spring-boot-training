@@ -1,3 +1,5 @@
+package com.springboot.app;
+
 public class GenericExample<T> {
     private T t;
 

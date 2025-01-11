@@ -1,6 +1,7 @@
-package com.example.jspdemo.controller;
+package com.springboot.app.controller;
 
-import com.example.jspdemo.domain.Student;
+
+import com.springboot.app.domain.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

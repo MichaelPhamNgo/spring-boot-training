@@ -1,7 +1,8 @@
-package com.bfs.authserver.controller;
+package com.springboot.app.controller;
 
-import com.bfs.authserver.security.CookieUtil;
-import com.bfs.authserver.security.JwtUtil;
+
+import com.springboot.app.security.CookieUtil;
+import com.springboot.app.security.JwtUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;

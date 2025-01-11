@@ -1,8 +1,8 @@
-package com.beaconfire;
+package com.springboot.app;
 
-import com.beaconfire.controller.QuestionController;
-import com.beaconfire.controller.UserController;
-import com.beaconfire.dao.QuestionDAO;
+
+import com.springboot.app.controller.QuestionController;
+import com.springboot.app.dao.QuestionDAO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

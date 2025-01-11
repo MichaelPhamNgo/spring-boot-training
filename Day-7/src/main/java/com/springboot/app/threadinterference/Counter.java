@@ -1,4 +1,4 @@
-package threadinterference;
+package com.springboot.app.threadinterference;
 
 public class Counter {
     private int c = 0;

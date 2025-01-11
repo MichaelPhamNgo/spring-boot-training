@@ -1,6 +1,7 @@
-package com.bfs.springdataaccess.dao.impl;
+package com.springboot.app.dao.impl;
 
-import com.bfs.springdataaccess.domain.Employee;
+
+import com.springboot.app.domain.Employee;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

@@ -1,13 +1,13 @@
-package com.beaconfire.controller;
+package com.springboot.app.controller;
 
-import com.beaconfire.dao.UserDAO;
+import com.springboot.app.dao.UserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class UserController {
 
-//    @Autowired
+    @Autowired
     UserDAO userDAO;
 //    UserDAO userDAO = new UserDAO();
 

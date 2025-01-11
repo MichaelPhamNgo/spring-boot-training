@@ -1,0 +1,53 @@
+<h2>Interpolation</h2>
+<p>Hello {{name}}</p>
+<p>{{100 * 80}}</p>
+<p>{{"welcome to " + "Angular"}}</p>
+<p>{{getName()}}</p>
+
+
+
+
+<br>
+<h2>Property Binding</h2>
+<p [innerText]="name"></p>
+<p [style.color]="redText">This is RED!</p>
+
+<button disabled='{{isHide}}'>Try Me</button>
+
+<br>
+<button [disabled]='isHide'>Try Me</button>
+
+
+<br>
+<h2>Event Binding</h2>
+<button (click)='onIncreaseClick("James")'>Increase</button>
+
+<p>The counter is {{counter}}</p>
+
+
+<br>
+<h2>Two way data binding</h2>
+Enter your name here: <input type="text" [(ngModel)]='inputValue'>
+<p>Hello {{inputValue}}</p>
+
+<br>
+<h2>Structural Directive</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes; let i = index"
+    [class.selected]="hero === selectedHero"
+    (click)="onSelect(hero)">
+    <span class="badge">{{i}}</span> {{hero.name}}--{{hero.age}}
+  </li>
+</ul>
+
+<div *ngIf="selectedHero">
+
+  <h2>{{selectedHero.name | uppercase}} Details</h2>
+  <div><span [ngClass]='calculateClasses()'>name: </span>{{selectedHero.name}}</div>
+  <div>
+    <label>age:
+      <input [(ngModel)]="selectedHero.age" placeholder="age"/>
+    </label>
+  </div>
+
+</div>

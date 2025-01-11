@@ -1,4 +1,4 @@
-package exception;
+package com.springboot.app.exception;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

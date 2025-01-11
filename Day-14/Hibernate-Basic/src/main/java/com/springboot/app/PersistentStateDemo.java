@@ -1,5 +1,7 @@
-import config.*;
-import domain.Question;
+package com.springboot.app;
+
+import com.springboot.app.config.HibernateConfigUtil;
+import com.springboot.app.domain.Question;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -12,7 +14,7 @@ public class PersistentStateDemo {
         try {
             tx = session.beginTransaction();
 
-            question = session.get(Question.class, 3);
+            question = session.get(Question.class, 559037);
             question.setQuestion("updated question");
 
             tx.commit();

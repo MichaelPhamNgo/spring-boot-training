@@ -1,0 +1,31 @@
+<h1>Sample Two</h1>
+<!-- Attribute -->
+<div [ngClass]="showColor ? 'colorDiv' : ''"></div>
+<button (click)="changeClass()">Change class</button>
+<hr>
+<div [ngStyle]="currentStyle"></div>
+<hr>
+
+<!-- Structural -->
+<p *ngIf="showName">My name is Kyle.</p>
+<button (click)="changeShowName()">Show Name?</button>
+<hr>
+
+<!-- ng-container can replace div -->
+<ng-container *ngFor="let name of names; let i = index;">
+  <p>{{i + 1}}: {{name}}</p>
+</ng-container>
+<hr>
+
+<ng-container [ngSwitch]="myName">
+  <p *ngSwitchCase="names[0]">{{names[0]}}</p>
+  <p *ngSwitchCase="names[1]">{{names[1]}}</p>
+  <p *ngSwitchDefault>Default</p>
+</ng-container>
+
+<!-- Customized -->
+<p appHighlight>This is an example of customized directive</p>
+
+<hr>
+
+<input type="text" appLog/>

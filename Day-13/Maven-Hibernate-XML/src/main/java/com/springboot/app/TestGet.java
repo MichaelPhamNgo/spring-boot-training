@@ -1,5 +1,7 @@
-import config.HibernateConfigUtil;
-import domain.City;
+package com.springboot.app;
+
+import com.springboot.app.config.HibernateConfigUtil;
+import com.springboot.app.domain.City;
 import org.hibernate.*;
 
 public class TestGet {

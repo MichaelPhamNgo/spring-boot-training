@@ -1,4 +1,4 @@
-package com.bfs.domain;
+package com.springboot.app.domain;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

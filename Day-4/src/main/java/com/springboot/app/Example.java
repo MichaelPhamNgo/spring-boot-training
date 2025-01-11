@@ -1,3 +1,5 @@
+package com.springboot.app;
+
 import java.util.*;
 
 public class Example {
