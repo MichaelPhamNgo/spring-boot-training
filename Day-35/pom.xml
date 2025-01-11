@@ -9,10 +9,6 @@
     <artifactId>Day-35</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>Book-Store</module>
-        <module>Config-Server</module>
-        <module>Gateway</module>
-        <module>Movie-Store</module>
-        <module>Service-Discovery</module>
+        <module>Micro-Service</module>
     </modules>
 </project>

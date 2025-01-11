@@ -67,18 +67,36 @@
     <file url="file://$PROJECT_DIR$/Day-34/Scheduler/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Day-34/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Day-34/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Book-Store/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Book-Store/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Config-Server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Config-Server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Gateway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Gateway/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Movie-Store/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Movie-Store/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Service-Discovery/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Day-35/Service-Discovery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Book-Store/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Book-Store/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Config-Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Config-Server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Movie-Store/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Movie-Store/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Service-Discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/Service-Discovery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-35/Micro-Service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Day-35/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Day-35/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Compositive-Service-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Compositive-Service-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Compositive-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Compositive-Service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Core-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Core-Service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Gateway-Resilience/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Gateway-Resilience/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Service-Finding/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Service-Finding/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-36/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-37/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day-37/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Day-4/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Day-4/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Day-5/src/main/java" charset="UTF-8" />

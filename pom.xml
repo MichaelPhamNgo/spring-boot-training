@@ -26,6 +26,9 @@
         <module>Day-32</module>
         <module>Day-34</module>
         <module>Day-35</module>
+        <module>Day-36</module>
+        <module>Day-36/Resilience-Demo</module>
+        <module>Day-37</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

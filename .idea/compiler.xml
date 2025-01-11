@@ -25,6 +25,13 @@
       <directory url="file://$PROJECT_DIR$/Day-35/Gateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Day-35/Movie-Store/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Day-35/Service-Discovery/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-36/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Compositive-Service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Compositive-Service-2/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Core-Service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Gateway-Resilience/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day-36/Resilience-Demo/Service-Finding/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -44,6 +51,7 @@
         <module name="Hibernate-Basic" />
         <module name="Maven-Hibernate-Annotation" />
         <module name="Config-Server" />
+        <module name="Day-37" />
         <module name="Day-3" />
         <module name="Day-4" />
         <module name="Day-17" />
@@ -54,6 +62,7 @@
         <module name="Hibernate-One-To-Many" />
         <module name="Day-31" />
         <module name="Jdbc-Connection-Pooling" />
+        <module name="Compositive-Service-2" />
         <module name="Hibernate-Criteria" />
         <module name="Movie-Store" />
         <module name="Spring-MVC-Demo" />
@@ -62,12 +71,16 @@
         <module name="Auth-Server" />
         <module name="Day-20" />
         <module name="Book-Store" />
+        <module name="Service-Finding" />
         <module name="logging" />
+        <module name="Gateway-Resilience" />
         <module name="LoginDemo" />
         <module name="JspDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Compositive-Service" target="1.8" />
+      <module name="Core-Service" target="1.8" />
       <module name="Day-2" target="1.8" />
       <module name="Day-6" target="19" />
       <module name="day-9" target="19" />
@@ -77,14 +90,19 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Auth-Server" options="-parameters" />
       <module name="Book-Store" options="-parameters" />
+      <module name="Compositive-Service" options="-parameters" />
+      <module name="Compositive-Service-2" options="-parameters" />
       <module name="Config-Server" options="-parameters" />
+      <module name="Core-Service" options="-parameters" />
       <module name="Day-17" options="" />
       <module name="Day-18" options="" />
       <module name="Day-20" options="-parameters" />
       <module name="Day-30" options="-parameters" />
       <module name="Day-31" options="-parameters" />
       <module name="Day-32" options="-parameters" />
+      <module name="Day-37" options="-parameters" />
       <module name="Gateway" options="-parameters" />
+      <module name="Gateway-Resilience" options="-parameters" />
       <module name="JspDemo" options="-parameters" />
       <module name="LoginDemo" options="-parameters" />
       <module name="Movie-Store" options="-parameters" />
@@ -93,6 +111,7 @@
       <module name="Rest-Demo" options="-parameters" />
       <module name="Scheduler" options="-parameters" />
       <module name="Service-Discovery" options="-parameters" />
+      <module name="Service-Finding" options="-parameters" />
       <module name="Spring-MVC-Demo" options="-parameters" />
       <module name="Spring-MVC-Demo-Jan" options="-parameters" />
       <module name="aop" options="-parameters" />
