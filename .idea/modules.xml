@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hibernate-Basic.iml" filepath="$PROJECT_DIR$/Hibernate-Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate-Caching.iml" filepath="$PROJECT_DIR$/Hibernate-Caching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate-Criteria.iml" filepath="$PROJECT_DIR$/Hibernate-Criteria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate-One-To-Many.iml" filepath="$PROJECT_DIR$/Hibernate-One-To-Many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maven-Hibernate-Annotation.iml" filepath="$PROJECT_DIR$/Maven-Hibernate-Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maven-Hibernate-XML.iml" filepath="$PROJECT_DIR$/Maven-Hibernate-XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-MVC-Demo.iml" filepath="$PROJECT_DIR$/Spring-MVC-Demo.iml" />
+    </modules>
+  </component>
+</project>

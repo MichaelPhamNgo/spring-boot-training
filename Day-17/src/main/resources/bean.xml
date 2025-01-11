@@ -1,0 +1,51 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+<!--    xml configuration-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.beaconfire"/>
+<!--    annotation configuration-->
+
+<!--        scope="prototype"-->
+<!--    <bean id="employee" class="com.beaconfire.Employee" scope="singleton"></bean>-->
+<!--    <bean id="employee1" class="com.beaconfire.Employee" scope="prototype"></bean>-->
+
+    <!--    constructor injection       -->
+<!--    <bean id="userController" class="com.beaconfire.controller.UserController">-->
+<!--        <constructor-arg ref="userDAO"></constructor-arg>-->
+<!--    </bean>-->
+<!--    <bean id="userDAO" class="com.beaconfire.dao.UserDAO"></bean>-->
+
+<!--        setter injection-->
+<!--    <bean id="userController" class="com.beaconfire.controller.UserController">-->
+<!--        <property name="userDAO" ref="userDAO"></property>-->
+<!--    </bean>-->
+<!--    <bean id="userDAO" class="com.beaconfire.dao.UserDAO"></bean>-->
+
+
+<!--    circular dependency with constructor-->
+<!--    <bean id="a" class="com.beaconfire.CircularA">-->
+<!--        <constructor-arg name="b" ref="b"></constructor-arg>-->
+<!--    </bean>-->
+<!--    <bean id="b" class="com.beaconfire.CircularB">-->
+<!--        <constructor-arg name="a" ref="a"></constructor-arg>-->
+<!--    </bean>-->
+
+
+<!--    circular dependency with setter -->
+<!--    <bean id="a" class="com.beaconfire.CircularA">-->
+<!--        <property name="b" ref="b"></property>-->
+<!--    </bean>-->
+<!--    <bean id="b" class="com.beaconfire.CircularB">-->
+<!--        <property name="a" ref="a"></property>-->
+<!--    </bean>-->
+
+
+
+</beans>

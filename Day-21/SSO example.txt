@@ -1,0 +1,15 @@
+The first time the user visit http://localhost:8081/spring-rest/protected/account
+   In Application server(rest-demo): the request get into JwtFilter.java; on line 20, it calls JwtUtil.getSubject(), and
+                                                      in JwtUtil.java, on line 10, it aclls CookieUtil.getValue(), and
+                                                      in CookieUtil.java, on line 28, it checks whether there is a cookie called "JWT-TOKEN" in your brower.
+                                                      If not(meaning username == null), the user will be redirected to the auth server login page; after the user logs in, he will be redirected back to
+                                                      http://localhost:8081/spring-rest/protected/account.
+			      If yes, the filter will call doFilter and the request will be received by the controller, and the response will be returned to the user.
+
+    When processing the login request in Authtication server(auth-server):
+             			      In LoginController.java on line 26, it will return the login.jsp; and when the user clicks "Sign In", 
+                                                      a request will be sent to LoginController.java on line 31. If the user inputted the correct username and password,
+                                                      on line 37 it will generate a jwt token; and on line 38 it will create a cookie with the key to be "JWT-TOKEN" and
+                                                      value to be the token generated on line 37. And on line 40 it will redirect the user to    
+                                                      http://localhost:8081/spring-rest/protected/account
+                                                      
